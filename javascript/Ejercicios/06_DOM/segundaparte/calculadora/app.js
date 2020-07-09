@@ -1,0 +1,1 @@
+const numero = document.querySelectorAll(".numero");

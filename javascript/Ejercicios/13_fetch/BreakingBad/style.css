@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+  background-color: #0f1332;
+  width: 100%;
+  font-family: "Pt mono", "open-sans";
+
+}
+main{
+  width: 80%;
+
+}
+img{
+  object-fit: cover;
+  height: 350px;
+  width: 300px;
+}
+.input-group{
+ width: calc(80% - 2rem);
+}
+.title1{
+  height: 100px;
+  position: relative;
+  right: 60px;
+}
+.title2{
+  height: 100px;
+  position: relative;
+  left: 60px;
+}
+.title1 > p, .title2 > p{
+  color: white;
+  font-family: "Allerta Stencil", "Pt mono", "open-sans";
+  font-size: 50px;
+  position: absolute;
+  top: 12px;
+  left: 100px;
+}
+.periodic{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: rgb(7,141,228);
+  background: linear-gradient(143deg, rgba(7,141,228,1) 19%, rgba(7,7,117,1) 91%, rgba(2,0,36,1) 100%);
+  border: 1px solid white;
+  color: white;
+  font-size: 9px;
+  margin-top: 3rem;
+}
+li{
+  list-style: none;
+}
+.num-atom{
+  position: absolute;
+  left: 5px;
+  top: 69px;
+
+}
+.element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  font-size: 50px;
+  height: 100%;
+  width: 100%;
+
+}
+.masa-atom{
+  position: absolute;
+  left: 5px;
+  top: 3px;
+}
+.estados-oxidacion{
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
+.electrones-niveles{
+  position: absolute;
+  left: 5px;
+  bottom: 5px
+}
+.card{
+  background-color: gainsboro;
+  transition: 0.2s all ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 2px #70729d, 0 0 40px #70729d, 0 0 80px #70729d;
+}
+.card-title{
+  display: inline-block;
+  background-color: #70729d;
+  color: white;
+  margin-bottom: 20px;
+}
+.card-text{
+  padding-bottom: 10px;
+}
+.card-body{
+  margin-bottom: 10px;
+}
+
+.key{
+  /* background-color: rgb(202, 202, 252); */
+  border-bottom: 1px solid #9192ab;
+  /* border-radius: 5px; */
+  padding: 5px;
+  font-weight: bolder;
+  /* color: white; */
+}
+

@@ -1,0 +1,32 @@
+// ## Ejercicio Array 004
+
+//   - Tenemos un array en una variable`mix` con varios elementos, de distintos tipos de datos.
+// - Usando`filter`, crear un nuevo array con todos los elementos que sean strings y guardalo en la variable`soloStrings`.
+// - Ayuda: para saber si algo es un string en javascript, podés usar typeof [ver más](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/typeof)
+//     - Mostrar el array resultante
+
+//       ```js
+const mix = [
+  "Ut vero.",
+  2,
+  function () {
+    console.log("hola mundo!");
+  },
+  56,
+  "Diam rebum nonumy et.",
+  true,
+  false,
+  "Kasd stet.",
+  "Sit et dolor.",
+  null,
+  null,
+  [1, 2, 3],
+  "Dolore.",
+];
+
+// codear acá la solución del ejercicio
+soloStrings = mix.filter((elem) => typeof elem === "string");
+
+console.log(soloStrings);
+// deberia mostrar
+// [ 'Ut vero.', 'Diam rebum nonumy et.', 'Kasd stet.', 'Sit et dolor.', 'Dolore.' ]

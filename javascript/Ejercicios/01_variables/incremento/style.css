@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  color: transparent;
+  text-decoration: none;
+}
+
+/* section */
+.carousel {
+  /* position: relative; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  padding: 0 4rem;
+  filter: drop-shadow(0 0 10px #0003);
+  max-height: 300px;
+}
+.carousel__viewport {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.carousel__viewport::-webkit-scrollbar {
+  display: none;
+}
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  width: 200px;
+  height: 90%;
+  object-fit: cover;
+}
+figcaption {
+  font-size: 1.5em;
+  width: 90%;
+  margin: 0 1rem;
+}
+.first-img {
+  overflow: hidden;
+  border-right: 0.5px solid grey;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 5%;
+}
+.second-img {
+  padding: 5%;
+  overflow: hidden;
+  border-left: 0.5px solid grey;
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.carousel__prev,
+.carousel__next {
+  z-index: 1;
+}
+
+.carousel__prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+/* .carousel::after, */
+.carousel__next {
+  top: 50%;
+  position: absolute;
+  right: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+.carousel__prev,
+.carousel__next {
+  height: 2.5rem;
+  width: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #333;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  font-size: 0;
+}
+@media screen and (max-width: 680px) {
+  .carousel {
+    margin: 1rem auto;
+    max-height: 200px;
+  }
+  img {
+    width: 120px;
+    height: 90%;
+    object-fit: cover;
+  }
+  figcaption {
+    font-size: 1.1em;
+    width: 90%;
+    margin: 0 0.5rem;
+  }
+  .carousel__prev,
+  .carousel__next {
+    height: 1.5rem;
+    width: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+    background-size: 0.5rem 0.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    font-size: 0;
+  }
+}
+/* .carousel__navigation {
+  width: 100%;
+  text-align: center;
+}
+.carousel__navigation-list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+} */
+/* .carousel__navigation-item {
+  margin: 0.2rem;
+  z-index: 1;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+  font-size: 15px;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* 
+         <ol class="caorusel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a class="carousel__navigation-button 
+aside */

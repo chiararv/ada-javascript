@@ -1,0 +1,10 @@
+.foco {
+  border: 3px solid violet;
+  outline: none;
+}
+h1 {
+  color: pink;
+}
+.tachado {
+  text-decoration: line-through;
+}
