@@ -1,5 +1,5 @@
 # ada-javascript
-Trabajos realizados con html, css y javascript.
+Trabajos realizados con html, css y javascript en el marco del curso de Ada ITW.
 
 # Páginas:
 [Breaking Bad](https://chiararv.github.io/ada-javascript/javascript/Ejercicios/13_fetch/BreakingBad/index.html)
