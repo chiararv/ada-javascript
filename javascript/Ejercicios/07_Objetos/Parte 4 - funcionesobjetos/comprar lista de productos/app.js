@@ -11,4 +11,4 @@ const canBuyAllProduct = (money, objeto) => {
   const compras = valorTotal(objeto) <= money
 
   return compras;
-}; 
+};

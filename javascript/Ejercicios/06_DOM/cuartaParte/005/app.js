@@ -5,6 +5,7 @@
 // - en que estan declaradas.
 
 const listElement = document.getElementById("list").children;
+const parentElement = document.getElementById("list");
 
 let currentN = 0;
 
@@ -14,7 +15,10 @@ const showImg = () => {
   }
   currentN = currentN < listElement.length - 1 ? currentN + 1 : 0;
 
-  // listElement.forEach((i) => {
-  //     listElement[i].style.display = (i != currentN) ? "none" : "block";
-  // })
 };
+
+// listElement.forEach((i) => {
+//     listElement[i].addEventListener('click' , showImg)
+// })
+
+parentElement.addEventListener('click' , showImg)
