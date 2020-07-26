@@ -35,7 +35,7 @@ const buscaminas = (coor1, coor2) => {
   if(jugable){
     let coordenadaIngresada = tablero[coor1][coor2];
 
-    if(coordenadaIngresada == "💣" ) {
+    if(coordenadaIngresada == "💣") {
 
       event.target.textContent = "💥";
       texto.textContent ="¡Oh no!¡Has encontrado una bomba!";
