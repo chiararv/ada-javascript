@@ -5,9 +5,9 @@ Trabajos realizados con html, css y javascript en el marco del curso de Ada ITW.
 
 [Breaking Bad](https://chiararv.github.io/ada-javascript/javascript/Ejercicios/13_fetch/BreakingBad/index.html)
 
-[Lista de ventas](https://chiararv.github.ioa/ada-javascript/javascript/Tps/01-VentasDePc/index.html)
+[Lista de ventas](https://chiararv.github.io/ada-javascript/javascript/Tps/01-VentasDePc/index.html)
 
-[wiki gatitos](https://chiararv.github.ioa/ada-javascript/javascript/Tps/tpGatitos/index.html)
+[wiki gatitos](https://chiararv.github.io/ada-javascript/javascript/Tps/tpGatitos/index.html)
 
 [GitHub user](https://chiararv.github.io/ada-javascript/javascript/Ejercicios/13_fetch/ej_02/index.html)
 
