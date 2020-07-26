@@ -13,6 +13,7 @@ Trabajos realizados con html, css y javascript en el marco del curso de Ada ITW.
 
 [Buscaminas](https://chiararv.github.io/ada-javascript/javascript/Ejercicios/05_arrays/buscaminas/index.html)
 
+
 [To do list](https://chiararv.github.io/ada-javascript/javascript/Ejercicios/06_DOM/quintaParte/002/index.html)
 
 ### Testing
